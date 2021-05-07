@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial,serif;
+            padding: 20px;
+            background-color: #414141;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: #fcdc00;
+            color: #181818;
+            border-style: solid;
+            border-radius: 20px;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 70%;
+            padding-left: 5%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: right;
+            width: 25%;
+            padding-left: 10px;
+            padding-right: 5%;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: #414141;
+            color: #d7d7d7;
+            padding: 20px;
+            margin-top: 20px;
+            border-style: inset;
+            border-width: medium;
+            border-color: gray;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>JavaScript & jQuery</h1>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+           <h2>Weeks 2 & 3</h2>
+            <ul>
+                <li><a href="week2&3/hello.html" target="_blank">hello.html</a></li>
+                <li><a href="week2&3/hello2.html" target="_blank">hello2.html</a></li>
+                <li><a href="week2&3/slide.html" target="_blank">slide.html</a></li>
+                <li><a href="week2&3/use_variable.html" target="_blank">use_variable.html</a></li>
+                <li><a href="week2&3/prompt.html" target="_blank">prompt.html</a></li>
+                <li><a href="week2&3/arrays.html" target="_blank">arrays.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Weeks 4 & 5</h2>
+            <ul>
+                <li><a href="week4_5/conditional.html" target="_blank">conditional.html</a></li>
+                <li><a href="week4_5/print_date.html" target="_blank">print_date.html</a></li>
+                <li><a href="week4_5/quiz.html" target="_blank">quiz.html</a></li>
+                <li><a href="week4_5/chapter3quiz.html" target="_blank">chapter3quiz.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Weeks 6 & 7</h2>
+            <ul>
+                <li><a href="week6_7/pull-quote.html" target="_blank">pull-quote.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 8</h2>
+            <ul>
+                <li><a href="week8/events_intro.html" target="_blank">events_intro.html</a></li>
+                <li><a href="week8/faq.html" target="_blank">faq.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 9</h2>
+            <ul>
+                <li><a href="week9/login.html" target="_blank">login.html</a></li>
+                <li><a href="week9/animate.html" target="_blank">animate.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 10</h2>
+            <ul>
+                <li><a href="week10/rollover.html" target="_blank">rollover.html</a></li>
+                <li><a href="week10/gallery.html" target="_blank">gallery.html</a></li>
+                <li><a href="week10/menu.html" target="_blank">menu.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 11</h2>
+            <ul>
+                <li><a href="week11/form.html" target="_blank">form.html</a></li>
+                <li><a href="week11/validation.html" target="_blank">validation.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 12</h2>
+            <ul>
+                <li><a href="week12/hello_world.html" target="_blank">hello_world.html</a></li>
+                <li><a href="week12/dialog_buttons.html" target="_blank">dialog_buttons.html</a></li>
+                <li><a href="week12/advanced_tooltips.html" target="_blank">advanced_tooltips.html</a></li>
+                <li><a href="week12/tabs.html" target="_blank">tabs.html</a></li>
+                <li><a href="week12/accordion.html" target="_blank">accordion.html</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Week 14</h2>
+            <ul>
+                <li><a href="week14/console.html" target="_blank">console.html</a></li>
+                <li><a href="week14/debugger.html" target="_blank">debugger.html</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>My name is Joseph Albert and I am a student at Pellissippi State Community College.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  header {background-color: red;
+  text-align: center;
+    font-family: "Arial Black";
+    font-size: x-large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  div {text-align: center;}
+  ol {padding-left: 32%}
+  button {background-color: #d04946; text-align: center}
+  input {background-color: #d04946}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Survey</title>
+</head>
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <ul class="navbar-nav">
+        <li><img src="logo.png" width="50" height="50"></li>
+        <li class="nav-item">
+            <a class="nav-link" href="Lab4B.html">Ferrari</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Sales.html">Contact Online Sales</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link shadow-lg" href="lab2b.html">Take Online Survey</a>
+        </li>
+    </ul>
+</nav>
+<body class="bg-dark text-white">
+<script>
+    class Survey{
+
+        get question1() {
+            return this._question1;
+        }
+
+        set question1(value) {
+            this._question1 = value;
+        }
+
+        get question1_2() {
+            return this._question1_2;
+        }
+
+        set question1_2(value) {
+            this._question1_2 = value;
+        }
+
+        get question2() {
+            return this._question2;
+        }
+
+        set question2(value) {
+            this._question2 = value;
+        }
+
+        get question2_2() {
+            return this._question2_2;
+        }
+
+        set question2_2(value) {
+            this._question2_2 = value;
+        }
+
+        get question3() {
+            return this._question3;
+        }
+
+        set question3(value) {
+            this._question3 = value;
+        }
+
+        get question3_2() {
+            return this._question3_2;
+        }
+
+        set question3_2(value) {
+            this._question3_2 = value;
+        }
+
+        get question4() {
+            return this._question4;
+        }
+
+        set question4(value) {
+            this._question4 = value;
+        }
+
+        get question4_2() {
+            return this._question4_2;
+        }
+
+        set question4_2(value) {
+            this._question4_2 = value;
+        }
+
+        get question5() {
+            return this._question5;
+        }
+
+        set question5(value) {
+            this._question5 = value;
+        }
+
+        get question5_2() {
+            return this._question5_2;
+        }
+
+        set question5_2(value) {
+            this._question5_2 = value;
+        }
+
+        /*constructor(question1, question1_2, question2, question2_2, question3, question3_2, question4 , question4_2, question5, question5_2){
+            this._question1 = question1;
+            this._question1_2 = question1_2;
+            this._question2 = question2;
+            this._question2_2 = question2_2;
+            this._question3 = question3;
+            this._question3_2 = question3_2;
+            this._question4 = question4;
+            this._question4_2 = question4_2;
+            this._question5 = question5;
+            this._question5_2 = question5_2;
+            }
+         */
+        constructor(){
+
+        }
+        toString(){
+            //line breaks like \n or <br> didnt work here so it looks ugly.
+            return "1 : " + survey.question1 + " 1.2 :  " + survey.question1_2 + " 2 : " + survey.question2 + " 2.2 : " + survey.question2_2 + " 3 : " + survey.question3 + " 3.2 : " + survey.question3_2 + " 4 : " + survey.question4 + " 4.2 : " + survey.question4_2 + " 5 : " + survey.question5 + " 5.2 : " + survey.question5_2;
+        }
+    }
+
+</script>
+<ol class="m-5">
+     <script>
+         survey = new Survey();
+     </script>
+     <li>Did you feel welcome? <br>
+         <input type="radio" id="yes1" name="q1" value="yes" checked>
+         <label for="yes1">Yes</label>
+         <input type="radio" id="no1" name="q1" value="no">
+         <label for="no1">No</label> </li>
+     <label>Why or why not?</label>
+     <input id="txt1" type="text">
+     <li>Should Ferrari's main color be red? <br>
+         <input type="radio" id="yes2" name="q2" value="yes" checked>
+         <label for="yes2">Yes</label>
+         <input type="radio" id="no2" name="q2" value="no">
+         <label for="no2">No</label> </li>
+     <label>Why or why not?</label>
+     <input id="txt2" type="text">
+     <li>Should Ferrari offer more affordable vehicles? <br>
+         <input type="radio" id="yes3" name="q3" value="yes" checked>
+         <label for="yes3">Yes</label>
+         <input type="radio" id="no3" name="q3" value="no">
+         <label for="no3">No</label>  </li>
+    <label>Why or why not?</label>
+     <input id="txt3" type="text">
+     <li>Were our Covid-19 safety precautions satisfactory? <br>
+         <input type="radio" id="yes4" name="q4" value="yes" checked>
+         <label for="yes4">Yes</label>
+         <input type="radio" id="no4" name="q4" value="no">
+         <label for="no4">No</label>  </li>
+    <label>Why or why not?</label>
+     <input id="txt4" type="text" >
+     <li>Would you purchase a vehicle with us in the future? <br>
+         <input type="radio" id="yes5" name="q5" value="yes" checked>
+         <label for="yes5">Yes</label>
+         <input type="radio" id="no5" name="q5" value="no">
+         <label for="no5">No</label>  </li>
+    <label>Why or why not?</label>
+     <input id="txt5" type="text">
+ </ol>
+ <div>
+     <button type="submit" onclick="Submit()">Submit </button>
+     <script>
+         function Submit() {
+             survey = new Survey();
+             for (var i = 1; i <= 5; i++) {
+                 var name = 'input[name="q' + i + '"]'
+                 const rbs = document.querySelectorAll(name);
+                 //let selectedValue;
+                 for (const rb of rbs) {
+                     if (rb.checked) {
+                         survey.question1 = rb.value;
+                         break;
+                     }
+                 }
+                 for (const rb of rbs) {
+                     if (rb.checked) {
+                         survey.question2 = rb.value;
+                         break;
+                     }
+                 }
+                 for (const rb of rbs) {
+                     if (rb.checked) {
+                         survey.question3 = rb.value;
+                         break;
+                     }
+                 }
+                 for (const rb of rbs) {
+                     if (rb.checked) {
+                         survey.question4 = rb.value;
+                         break;
+                     }
+                 }
+                 for (const rb of rbs) {
+                     if (rb.checked) {
+                         survey.question5 = rb.value;
+                         break;
+                     }
+                 }
+             }
+
+             survey.question1_2 = document.getElementById("txt1").value;
+             survey.question2_2 = document.getElementById("txt2").value;
+             survey.question3_2 = document.getElementById("txt3").value;
+             survey.question4_2 = document.getElementById("txt4").value;
+             survey.question5_2 = document.getElementById("txt5").value;
+
+             document.cookie = null;
+             document.cookie = survey.toString();
+             window.open("SurveyResults.html");
+
+         }
+     </script>
+ </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9d0f7b6-764b-467f-8a74-ab253784f1db" name="PSTCC" url="http://web-students.pstcc.edu">
+        <fileTransfer rootFolder="/Home/WEB2300WW1/jzalbert" accessType="SFTP" host="web-students.pstcc.edu" port="22" sshConfigId="1f0ef3f9-e5c2-403e-87ff-8acbb2220716" sshConfig="jzalbert@web-students.pstcc.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

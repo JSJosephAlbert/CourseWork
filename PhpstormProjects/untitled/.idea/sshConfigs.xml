@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="web-students.pstcc.edu" id="3972b3a5-e4db-4144-a031-6884bd293f2d" port="22" nameFormat="DESCRIPTIVE" username="jzalbert" />
+    </configs>
+  </component>
+</project>

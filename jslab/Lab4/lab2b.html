@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  header {background-color: red;
+  text-align: center;
+    font-family: "Arial Black";
+    font-size: x-large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  div {text-align: center;}
+  ol {padding-left: 32%}
+  button {background-color: #d04946; text-align: center}
+  input {background-color: #d04946}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Survey</title>
+</head>
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <ul class="navbar-nav">
+        <li><img src="logo.png" width="50" height="50"></li>
+        <li class="nav-item">
+            <a class="nav-link" href="Lab4B.html">Ferrari</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Sales.html">Contact Online Sales</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link shadow-lg" href="lab2b.html">Take Online Survey</a>
+        </li>
+    </ul>
+</nav>
+<body class="bg-dark text-white">
+ <ol>
+   <li>Did you feel welcome? <button type="button">Yes!</button> <button type="button">No.</button> </li>
+   <li><label>Why or why not?</label> </li>
+   <input type="text">
+   <li>Should Ferrari's main color be red?  <button type="button">Yes!</button> <button type="button">No.</button> </li>
+   <li><label>Why or why not?</label> </li>
+   <input type="text">
+   <li>Should Ferrari offer more affordable vehicles?  <button type="button">Yes!</button> <button type="button">No.</button> </li>
+   <li><label>Why or why not?</label> </li>
+   <input type="text">
+   <li>Were our Covid-19 safety precautions satisfactory?  <button type="button">Yes!</button> <button type="button">No.</button> </li>
+   <li><label>Why or why not?</label> </li>
+   <input type="text" >
+   <li>Would you purchase a vehicle with us in the future? <button type="button">Yes!</button> <button type="button">No.</button> </li>
+   <li><label>Why or why not?</label> </li>
+   <input type="text">
+ </ol>
+ <div>
+ <button type="submit" onclick="alert('Thank you for your feedback!')">Submit </button>
+ </div>
+</body>
+</html>

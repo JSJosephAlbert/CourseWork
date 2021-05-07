@@ -1,0 +1,31 @@
+@pColor: #222222;
+@sColor: #F0F8FF;
+@dRadius: 30px;
+
+.RoundedShape(@radius:@dRadius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.RoundedSquare(@radius:@dRadius) {
+  .RoundedShape(@radius);
+}
+header {
+  border-style: double;
+  background-color: @pColor;
+  color: @sColor;
+  text-align: center;
+  .RoundedSquare;
+}
+
+body {
+  background-color: #555555;
+  color: @sColor;
+  font-size: large;
+}
+
+ul {
+  text-align: center;
+  font-size: large;
+}

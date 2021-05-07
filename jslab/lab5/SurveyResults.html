@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Home</title>
+</head>
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <ul class="navbar-nav">
+        <li><img src="logo.png" width="50" height="50"></li>
+        <li class="nav-item">
+            <a class="nav-link shadow-lg" href="Lab4B.html">Ferrari</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Sales.html">Contact Online Sales</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="lab2b.html">Take Online Survey</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="SurveyResults.html">Survey Results</a>
+        </li>
+    </ul>
+</nav>
+<body id="body" class="bg-dark text-white">
+<h1 class="text-center">Results</h1>
+<p class="text-white text-center" id="q1"></p>
+<script>
+    survey = document.cookie;
+    document.getElementById("q1").innerText += survey;
+</script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background-color: #414141;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-family: "Yu Gothic UI";
+            font-size: 40px;
+            text-align: center;
+            text-shadow: -2px 2px 2px white;
+            background: #787CB5;
+            border-style: solid;
+            border-radius: 20px;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 70%;
+            padding-left: 5%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: right;
+            width: 25%;
+            padding-left: 10px;
+            padding-right: 5%;
+        }
+
+        /* Fake image */
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: #414141;
+            color: #d7d7d7;
+            padding: 20px;
+            margin-top: 20px;
+            border-style: inset;
+            border-width: medium;
+            border-color: gray;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h2>Server-Side Web Dev</h2>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2><a href="Project2/Project2.php" target="_blank"> Project 2</a></h2>
+            <a href="Project2/Project2.php" target="_blank">
+                <img src="Project2/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2><a href="Project3/Project3.php" target="_blank"> Project 3</a></h2>
+            <a href="Project3/Project3.php" target="_blank">
+                <img src="Project3/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2> Project 4</h2>
+            <p>
+                <a href="Project4/dumpExamples.php" target="_blank"> dumpExamples.php</a>
+            </p>
+            <p>
+                <a href="Project4/outputErrors.php" target="_blank"> outputErrors.php</a>
+            </p>
+            <p>
+                <a href="Project4/tryCatch.php" target="_blank"> tryCatch.php</a>
+            </p>
+        </div>
+        <div class="card">
+            <h2><a href="Project5/DefinedFunctions.php" target="_blank"> Project 5</a></h2>
+            <a href="Project5/DefinedFunctions.php" target="_blank">
+                <img src="Project5/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2> Project 6</h2>
+            <p>
+                <a href="Project6/boolChecks.php" target="_blank"> boolChecks.php</a>
+            </p>
+            <p>
+                <a href="Project6/arrayFunctions.php" target="_blank"> arrayFunctions.php</a>
+            </p>
+            <p>
+                <a href="Project6/stringFunctions.php" target="_blank"> stringFunctions.php</a>
+            </p>
+        </div>
+        <div class="card">
+            <h2><a href="Project7/form.php" target="_blank"> Project 7</a></h2>
+            <a href="Project7/form.php" target="_blank">
+                <img src="Project7/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2><a href="Project8/form.php" target="_blank"> Project 8</a></h2>
+            <a href="Project8/form.php" target="_blank">
+                <img src="Project8/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2><a href="Project9/form.php" target="_blank"> Project 9</a></h2>
+            <a href="Project9/form.php" target="_blank">
+                <img src="Project9/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2><a href="Project10/form.php" target="_blank"> Project 10</a></h2>
+            <a href="Project10/form.php" target="_blank">
+                <img src="Project10/img.png" width="70%" height="70%">
+            </a>
+        </div>
+        <div class="card">
+            <h2><a href="Project11/customers.php" target="_blank"> Project 11</a></h2>
+            <a href="Project11/customers.php" target="_blank">
+                <img src="Project11/img.png" width="70%" height="70%">
+            </a>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>My name is Joseph Albert and I am a student at Pellissippi State Community College.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
