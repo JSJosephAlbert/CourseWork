@@ -1,0 +1,9 @@
+C:\Users\zmana\source\repos\InvoiceTotal\bin\Debug\InvoiceTotal.exe.config
+C:\Users\zmana\source\repos\InvoiceTotal\bin\Debug\InvoiceTotal.exe
+C:\Users\zmana\source\repos\InvoiceTotal\bin\Debug\InvoiceTotal.pdb
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.csprojAssemblyReference.cache
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.Form1.resources
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.Properties.Resources.resources
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.csproj.GenerateResource.cache
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.exe
+C:\Users\zmana\source\repos\InvoiceTotal\obj\Debug\InvoiceTotal.pdb
