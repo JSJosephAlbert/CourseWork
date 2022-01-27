@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\zmana\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\zmana\\.nuget\\packages"
-    ]
-  }
-}
